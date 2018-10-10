@@ -29,6 +29,9 @@ a {
   color: #d21034;
 }
 
+
+</STYLE>
+
 <STYLE type=text/css>
 A:link {
  COLOR: #4d95e0 /*The color of the link*/
@@ -41,12 +44,9 @@ A:hover {
 }
 
 BODY { COLOR: #0a330b /*The color of all the other text within the body of the page*/
-{
+}
 
-</STYLE>
-
-
-.container {
+.container {a
   width: 1024px;
   margin: 0 auto;
 }
