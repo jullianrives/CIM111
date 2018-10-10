@@ -1,3 +1,4 @@
+
 body {
   padding: 0;
   margin: 0;
@@ -30,31 +31,83 @@ a {
 }
 
 
-</STYLE>
+
+
+
+
+
+
+<STYLE>
+
 
 <STYLE type=text/css>
-A:link {
- COLOR: #4d95e0 /*The color of the link*/
-}
-A:visited {
- COLOR: #eb38eb /*The color of the visited link*/
-}
-A:hover {
- COLOR: #f1f773 /*The color of the mouseover or 'hover' link*/
-}
 
-BODY { COLOR: #0a330b /*The color of all the other text within the body of the page*/
-}
+        A:link {
+              COLOR: #4d95e0 /*The color of the link*/
+            }
+        A:visited {
+              COLOR: #eb38eb /*The color of the visited link*/
+            }
+        A:hover {
+              COLOR: #f1f773 /*The color of the mouseover or 'hover' link*/
+            }
+
+        BODY { COLOR: #0a330b /*The color of all the other text within the body of the page*/
+            }
+
+        @font-face {
+              font-family: Wanted M54;
+              src: url('Macintosh HD\Users\jullian\Desktop\Code\CIM111\HW\a3\assets\css\fonts\wanted-m54\Wanted M54.ttf')  format('truetype');
+            }
+
+        div {
+              font-family: myFirstFont;
+            }
+
+</style>
+
+
+
+
+
+
 
 .container {a
   width: 1024px;
   margin: 0 auto;
 }
 
+.freddy{
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 60px;
+}
+
+.fancy{
+  font-family: 'Monoton', cursive;
+  font-size: 42px;
+}
+
+.faster{
+  font-family: 'Faster One', cursive;
+  font-size: 42px;
+}
+
+.annie{
+  font-family: 'Annie Use Your Telescope', cursive;
+  font-size: 42px;
+}
+
+.byHand{
+  font-family: 'Rock Salt', cursive;
+  font-size: 42px;
+}
+border-color {color: #123458}
+
 #main-bio,
 #contact-info,
 #bio-image {
   float: left;
+  align-content;
 }
 
 #main-bio {
