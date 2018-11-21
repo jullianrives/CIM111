@@ -1,0 +1,61 @@
+body {
+  font-size: 20px;
+  background: #42af1d;
+}
+button {
+  background: #ffc600;
+  border: 0;
+  width: 150px;
+  padding: 10px 20px;
+}
+.wrapper{
+	display: grid;
+	grid-gap: 20px;
+}
+.step1{
+  display: grid;
+  grid-gap: 20px;
+  justify-items: center;
+}
+.step2{
+  display: grid;
+  grid-gap: 20px;
+  justify-items: center;
+}
+.step3{
+  display: grid;
+  grid-gap: 20px;
+  justify-items: center;
+}
+.step4{
+  display: grid;
+  grid-gap: 20px;
+  justify-items: center;
+}
+.step5{
+  display: grid;
+  grid-gap: 20px;
+  justify-items: center;
+}
+.step6{
+  display: grid;
+  grid-gap: 20px;
+  justify-items: center;
+}
+.step7{
+  display: grid;
+  grid-gap: 20px;
+  justify-items: center;
+}
+.butteredtoast{
+  display: grid;
+  grid-gap: 20px;
+  justify-items: center;
+}
+.center{
+  text-align: center;
+}
+.section1{
+  display: grid;
+  justify-items: center;
+}
