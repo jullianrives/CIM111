@@ -1,0 +1,127 @@
+body {
+  font-size: 20px;
+  background: #f2a117;
+}
+}
+.wrapper{
+	display: grid;
+	grid-gap: 20px;
+  justify-items: center;
+}
+
+/* TOP HEADER SECTION (view below) //////////////////// */
+
+.top_section{
+  display: grid;
+  grid-gap: 20px;
+  grid-template-areas:
+    "MainPhotoAreaTL MainPhotoAreaTL Flag"
+    "MainPhotoAreaTL MainPhotoAreaTL Map"
+}
+.MainPhotoAreaTL{
+  grid-area: MainPhotoAreaTL;
+  min-height: 400px;
+  background: blue;
+  background-image: url("../images/mallorca_main.jpg");
+  color: white;
+  background-size: cover;
+  background-position: bottom right;
+  padding: 50px;
+  display: grid;
+  justify-content: start;
+    align-content: center;
+}
+.MainPhotoHeaderText{
+	background-color: rgba(23,202,255,0.4);
+	width: 300px;
+	height: 250px;
+	padding-left: 10px;
+}
+.MainPhotoHeaderText p{
+  font-size: 16px;
+}
+.FlagMapAreaTR{
+	background-color: #f2a117;
+	color: white;
+	display: grid;
+	align-items: center;
+	justify-items: center;
+	align-content: center;
+}
+.Flag{
+	grid-area: Flag;
+  background-size: cover;
+  background-position: center;
+}
+.Map{
+	grid-area: Map;
+  background-size: cover;
+  background-position: center;
+}
+
+/* LANDMARKS SECTION (view below) //////////////////// */
+
+h2{
+  text-align: center;
+}
+.lm1{
+  background-size: cover;
+  background-position: center;
+  justify-items: center;
+  min-width: 500px;
+  min-height: 500px;
+}
+.lm2{
+  background-size: cover;
+  background-position: center;
+  justify-items: center;
+  min-width: 500px;
+  min-height: 500px;
+}
+.lm3{
+  background-size: cover;
+  background-position: center;
+  justify-items: center;
+  min-width: 500px;
+  min-height: 500px;
+}
+.lm4{
+  background-size: cover;
+  background-position: center;
+  justify-items: center;
+  min-width: 500px;
+  min-height: 500px;
+}
+.lm5{
+  background-size: cover;
+  background-position: center;
+  justify-items: center;
+  min-width: 500px;
+  min-height: 550px;
+}
+.lmp1{
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+
+}
+.lmp2{
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+.lmp3{
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+.lmp4{
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+.lmp5{
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
