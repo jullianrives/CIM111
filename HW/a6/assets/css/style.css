@@ -1,0 +1,65 @@
+body {
+  font-size: 20px;
+  background: #f2a117;
+}
+}
+.wrapper{
+	display: grid;
+	grid-gap: 20px;
+  justify-items: center;
+}
+
+/* TOP HEADER SECTION (view below) //////////////////// */
+
+.top_section{
+  display: grid;
+  grid-gap: 20px;
+  grid-template-areas:
+    "MainPhotoAreaTL MainPhotoAreaTL Flag"
+    "MainPhotoAreaTL MainPhotoAreaTL Map"
+}
+.MainPhotoAreaTL{
+  grid-area: MainPhotoAreaTL;
+  min-height: 400px;
+  background: blue;
+  background-image: url("../images/mallorca_main.jpg");
+  color: white;
+  background-size: cover;
+  background-position: bottom right;
+  padding: 50px;
+  display: grid;
+  justify-content: start;
+    align-content: center;
+}
+.MainPhotoHeaderText{
+	background-color: rgba(23,202,255,0.4);
+	width: 300px;
+	height: 250px;
+	padding-left: 10px;
+}
+.MainPhotoHeaderText p{
+  font-size: 16px;
+}
+.FlagMapAreaTR{
+	background-color: #88f90a;
+	color: white;
+	display: grid;
+	align-items: center;
+	justify-items: center;
+	align-content: center;
+}
+.Flag{
+	grid-area: Flag;
+  background-image: url("../images/mallorca_flag.png");
+  background-size: cover;
+  background-position: center;
+}
+.Map{
+	grid-area: Map;
+  background-image: url("../images/mallorca_map.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.center{
+  text-align: center;
+}
